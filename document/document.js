@@ -7,8 +7,8 @@ const docoptions = {
     },
     servers: [
       {
-        url: "http://localhost:3000",
-        //url: "https://backecommercefull-production.up.railway.app",
+        //url: "http://localhost:3000",
+        url: "https://ecommercestam-production.up.railway.app",
         description: "url servidor",
       },
     ],
