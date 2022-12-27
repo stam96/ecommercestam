@@ -101,7 +101,7 @@ router.delete("/order/:id", jwtVerify, rolUsuario, eliminarOrdenId, validationRe
  *      description: Generar la interfaz de paypal para generar pago
  *      parameters:
  *          - in: path
- *            name: idOrden
+ *            name: id
  *            description: Ingreso del id del detalle compra
  *            required: true
  *            schema:
