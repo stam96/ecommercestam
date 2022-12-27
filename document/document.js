@@ -85,7 +85,7 @@ const docoptions = {
             correo: {
               type: "string",
               description: "Ingresar Correo",
-              example: "svalarezo62@gmail.com",
+              example: "user1@gmail.com",
             },
             contrasena: {
               type: "string",
@@ -106,7 +106,7 @@ const docoptions = {
             correo: {
               type: "string",
               description: "Ingresar Correo",
-              example: "svalarezo62@gmail.com",
+              example: "user1@gmail.com",
             },
           },
         },
@@ -133,7 +133,7 @@ const docoptions = {
             correo: {
               type: "string",
               description: "Ingreso del correo",
-              example: "user1@gmail.com",
+              example: "jeolcarlo145@gmail.com",
             },
             contrasena: {
               type: "string",
