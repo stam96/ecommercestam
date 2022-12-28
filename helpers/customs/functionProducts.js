@@ -11,7 +11,7 @@ export const existsProducts = async (nombre) => {
 }
 
 export const verificarCategory = async (category) => {
-    const categoryId = await modelCategory.findOne({category});
+    const categoryId = await modelCategory.findById(category);
     if(!categoryId){
         throw new Error("Ingrese una categoria existente")
     }
